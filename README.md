@@ -2,7 +2,7 @@
 
 ##User Stories
 
-As a User
+```As a User
 So that I can see my bookmarks
 I would like to access a list of saved bookmarks
 
@@ -20,4 +20,4 @@ I would like to tag bookmarks and filter them
 
 As a User
 so that I can keep my info private
-I would like to have an account
+I would like to have an account```
