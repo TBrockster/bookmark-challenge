@@ -1,6 +1,25 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/kareem/Projects/bookmark-challenge/spec/bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/kareem/Projects/bookmark-challenge/lib/bookmark.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/kareem/Projects/bookmark-challenge/spec/features/features_spec.rb": [
         1,
         1,
@@ -11,6 +30,6 @@
         null
       ]
     },
-    "timestamp": 1563190808
+    "timestamp": 1563196025
   }
 }

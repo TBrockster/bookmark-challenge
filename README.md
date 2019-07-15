@@ -1,8 +1,8 @@
 # Bookmark Challenge
 
-##User Stories
+## User Stories
 
-```As a User
+sh```As a User
 So that I can see my bookmarks
 I would like to access a list of saved bookmarks
 
@@ -21,3 +21,10 @@ I would like to tag bookmarks and filter them
 As a User
 so that I can keep my info private
 I would like to have an account```
+
+
+## STEPS
+1) connect via ```psql```
+2) type in command ```CREATE DATABASE bookmark_manager;```
+3) type in ```\c bookmark_manager```
+4) run ```01_create_bookmarks_table.sql```

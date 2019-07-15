@@ -6,6 +6,7 @@ class BookmarkApp < Sinatra::Base
   end
 
   get '/bookmarks' do
+    @bookmarks = ["http://www.github.com"]
     erb :bookmarks
   end
 
