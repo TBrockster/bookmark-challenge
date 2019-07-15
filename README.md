@@ -22,9 +22,16 @@ As a User
 so that I can keep my info private
 I would like to have an account```
 
+## Steps to create the production database
 
-## STEPS
-1) connect via ```psql```
-2) type in command ```CREATE DATABASE bookmark_manager;```
-3) type in ```\c bookmark_manager```
-4) run ```01_create_bookmarks_table.sql```
+1. connect via `psql`
+2. type in command `CREATE DATABASE bookmark_manager;`
+3. type in `\c bookmark_manager`
+4. run `01_create_bookmarks_table.sql`
+
+## Steps to create the test database
+
+1. connect via `psql`
+2. type in command `CREATE DATABASE bookmark_manager_test;`
+3. type in `\c bookmark_manager`
+4. run `01_create_bookmarks_table.sql`

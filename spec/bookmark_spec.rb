@@ -4,9 +4,17 @@ describe Bookmark do
   let(:bookmark) {described_class}
   describe '.all' do
     it "calls all bookmarks" do
-    expect(bookmark.all).to include("http://www.github.com")
-    expect(bookmark.all).to include("http://www.google.com")
-    expect(bookmark.all).to include("http://www.makersacademy.com")
+      connection = PG.connect(dbname: 'bookmark_manager_test')
+
+      connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');")
+      connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.destroyallsoftware.com');")
+      connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.google.com');")
+
+      bookmarks = Bookmark.all
+
+      expect(bookmarks).to include('http://www.makersacademy.com')
+      expect(bookmarks).to include('http://www.destroyallsoftware.com')
+      expect(bookmarks).to include('http://www.google.com')
     end
   end
 end
