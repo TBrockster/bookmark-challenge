@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/bookmark-challenge/spec/bookmark_spec.rb": [
+      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/bookmark_spec.rb": [
         1,
         null,
         1,
@@ -9,13 +9,18 @@
         1,
         1,
         1,
+        1,
+        1,
+        null,
+        1,
         null,
         1,
         1,
         1,
         null,
-        1,
         null,
+        1,
+        1,
         1,
         1,
         1,
@@ -23,7 +28,20 @@
         null,
         null
       ],
-      "/Users/student/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/features/adding_bookmarks_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -41,6 +59,6 @@
         null
       ]
     },
-    "timestamp": 1563205144
+    "timestamp": 1563285972
   }
 }
