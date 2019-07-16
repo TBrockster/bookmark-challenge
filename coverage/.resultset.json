@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/bookmark_spec.rb": [
+      "/Users/kareem/Projects/bookmark_challenge_toby/bookmark-challenge/spec/bookmark_spec.rb": [
         1,
         1,
         null,
@@ -39,7 +39,7 @@
         null,
         null
       ],
-      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/database_helpers.rb": [
+      "/Users/kareem/Projects/bookmark_challenge_toby/bookmark-challenge/spec/database_helpers.rb": [
         1,
         null,
         1,
@@ -48,7 +48,7 @@
         null,
         null
       ],
-      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/features/adding_bookmarks_spec.rb": [
+      "/Users/kareem/Projects/bookmark_challenge_toby/bookmark-challenge/spec/features/adding_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -62,7 +62,19 @@
         null,
         null
       ],
-      "/Users/student/Documents/projects/temp/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/kareem/Projects/bookmark_challenge_toby/bookmark-challenge/spec/features/deleting_bookmarks_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/kareem/Projects/bookmark_challenge_toby/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -78,6 +90,6 @@
         null
       ]
     },
-    "timestamp": 1563290681
+    "timestamp": 1563291878
   }
 }
